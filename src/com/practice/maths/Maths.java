@@ -10,4 +10,21 @@ public class Maths {
         }
         return count;
     }
+    public String isNumberPalindrome(int number){
+        int oldNumber = number;
+        int reverseNumber = 0;
+        int rem;
+        while(number > 0)
+        {
+            rem = number % 10;
+            reverseNumber =reverseNumber*10 +rem;
+            number = number /10;
+        }
+        if(oldNumber == reverseNumber){
+            return "Giver number is Palindrome Number !";
+        }
+        else {
+            return "Giver number is 22222222222222222222222Palindrome Number !";
+    }
+    }
 }
