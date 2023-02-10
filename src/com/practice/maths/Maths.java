@@ -24,7 +24,7 @@ public class Maths {
             return "Giver number is Palindrome Number !";
         }
         else {
-            return "Giver number is 22222222222222222222222Palindrome Number !";
+            return "Giver number is Not Palindrome Number !";
     }
     }
 }
